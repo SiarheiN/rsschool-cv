@@ -1,0 +1,96 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4d2323;
+  background-image: url(/rsschool-cv/assets/img/111.jpg);
+}
+* {
+  box-sizing: border-box;
+}
+header {
+  background-color: rgb(169, 45, 45);
+}
+.header {
+  border: 1px solid red;
+}
+.main {
+  border: 1px solid red;
+}
+.footer {
+  border: 1px solid red;
+  text-align: center;
+  background-color: rgb(169, 45, 45);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.nav-link:hover {
+  transition: 0.3s;
+  color: rgb(254, 0, 0);
+  cursor: pointer;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.section-title {
+  font-size: 25px;
+  font-weight: 450;
+  text-transform: inherit;
+  letter-spacing: 5px;
+  color: #3b9147;
+}
+img {
+  width: 20%;
+}
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+.section-subtitle {
+  text-align: center;
+  text-decoration: underline;
+  font-size: larger;
+  color: #3b9147;
+}
+a {
+  color: aliceblue;
+  text-decoration: double;
+}
