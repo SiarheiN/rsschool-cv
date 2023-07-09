@@ -21,6 +21,7 @@ header {
 .footer {
   border: 1px solid red;
   text-align: center;
+  background-color: black;
 }
 
 body {
@@ -88,4 +89,8 @@ h1 {
   text-decoration: underline;
   font-size: larger;
   color: #3b9147;
+}
+a {
+  color: aliceblue;
+  text-decoration: double;
 }
